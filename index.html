@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="snake.css" />
+    <script src="snake.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <h1>Snake Game</h1>
+    <canvas id="board"></canvas>
+    <img src="assets/img/bg_2.jpg" id="bg-img" />
+    <div class="buttons">
+      <button id='arrow_up' onclick="Arrowup()"><i class="fa-solid fa-arrow-up"></i></button>
+      <br>
+      <button id='arrow_left' onclick="Arrowleft()"><i class="fa-solid fa-arrow-left"></i></button>
+      <button id='arrow_down' onclick="Arrowdown() "><i class="fa-solid fa-arrow-down"></i></button>
+      <button id='arrow_right' onclick="Arrowright()"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+   
+
+    <!--<div class="button_2">
+      <button id='arrow_down' type="danger" onclick="Arrowdown()"><i class="fa-solid fa-arrow-down"></i></button>
+    </div> -->
+    <!-- <img src="assets/img/apple.png" id="apple"> -->
+    <script>
+      /*    //for responsive canvas
+  function resize(){    
+    $("#board").outerHeight($(window).height()-$("#board").offset().top- Math.abs($("#board").outerHeight(true) - $("#board").outerHeight()));
+  }
+  $(document).ready(function(){
+    resize();
+    $(window).on("resize", function(){                      
+        resize();
+    });
+  }); */
+    </script>
+  </body>
+</html>
